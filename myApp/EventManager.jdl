@@ -1,0 +1,17 @@
+entity EmailConfig {
+    emailId String
+    tokenString String 
+}
+
+entity SubscriptionDetails {
+	subscriptionName String required
+    subscriptionStartDate Instant required
+    subscriptionExpiryDate Instant required
+    additionalComments String required
+    notificationBeforeExpiry Integer required
+    notificationMuteFlag Boolean required
+    notificationTo String required
+    notificationCc String
+    notificationBcc String
+  
+}

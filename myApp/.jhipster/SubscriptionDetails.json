@@ -1,0 +1,54 @@
+{
+  "annotations": {
+    "changelogDate": "20240427150533"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "subscriptionName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "subscriptionStartDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "subscriptionExpiryDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "additionalComments",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "notificationBeforeExpiry",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "notificationMuteFlag",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "notificationTo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "notificationCc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "notificationBcc",
+      "fieldType": "String"
+    }
+  ],
+  "name": "SubscriptionDetails",
+  "relationships": [],
+  "searchEngine": "no"
+}

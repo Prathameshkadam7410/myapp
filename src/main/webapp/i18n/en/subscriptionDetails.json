@@ -1,0 +1,32 @@
+{
+  "myApp": {
+    "subscriptionDetails": {
+      "home": {
+        "title": "Subscription Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Subscription Details",
+        "createOrEditLabel": "Create or edit a Subscription Details",
+        "notFound": "No Subscription Details found"
+      },
+      "created": "A new Subscription Details is created with identifier {{ param }}",
+      "updated": "A Subscription Details is updated with identifier {{ param }}",
+      "deleted": "A Subscription Details is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Subscription Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Subscription Details"
+      },
+      "id": "ID",
+      "subscriptionName": "Subscription Name",
+      "subscriptionStartDate": "Subscription Start Date",
+      "subscriptionExpiryDate": "Subscription Expiry Date",
+      "additionalComments": "Additional Comments",
+      "notificationBeforeExpiry": "Notification Before Expiry",
+      "notificationMuteFlag": "Notification Mute Flag",
+      "notificationTo": "Notification To",
+      "notificationCc": "Notification Cc",
+      "notificationBcc": "Notification Bcc"
+    }
+  }
+}
